@@ -22,13 +22,13 @@
       "id": 4,
       "name": "Pothos",
       "image": "./images/pothos.jpg",
-      "price": 12.11
+      "price": "0.16"
     },
     {
       "id": 5,
       "name": "Jade",
       "image": "./images/jade.jpg",
-      "price": 10.37
+      "price": "0.28"
     },
     {
       "id": 6,
@@ -58,37 +58,13 @@
       "id": "d7892ddc-ec88-4a6c-a3d0-14dfee43c2f9",
       "name": "asdf",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg/1200px-Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg",
-      "price": "-0.02"
+      "price": "0.41"
     },
     {
       "name": "fdas",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg/1200px-Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg",
       "price": 0,
       "id": 8
-    },
-    {
-      "name": "asdf",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg/1200px-Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg",
-      "price": 0,
-      "id": 9
-    },
-    {
-      "name": "asdf",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg/1200px-Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg",
-      "price": 0,
-      "id": 10
-    },
-    {
-      "name": "asdf",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg/1200px-Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg",
-      "price": 0,
-      "id": 11
-    },
-    {
-      "name": "asdf",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg/1200px-Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg",
-      "price": 0,
-      "id": 12
     }
   ]
 }

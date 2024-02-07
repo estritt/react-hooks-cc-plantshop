@@ -16,6 +16,13 @@ function PlantPage() {
   function changeFilter(string) {
     setFilter(string);
   }
+
+  function deletePlant(id) {
+    fetch(`http://localhost:6001/plants/${id}`, {
+      method: "DELETE",
+      headers: { "Content-Type": "Application/JSON" }
+    }).then(() => setPlants(plants.filter(plant => plant.id != id)));
+  }
   
   function addPlant(newPlant) {
     // setPlants([...plants, newPlant]);
@@ -34,7 +41,7 @@ function PlantPage() {
     <main>
       <NewPlantForm addPlant={addPlant} />
       <Search changeFilter={changeFilter} />
-      <PlantList plants={plants} filter={filter} />
+      <PlantList plants={plants} filter={filter} deletePlant={deletePlant} />
     </main>
   );
 }
